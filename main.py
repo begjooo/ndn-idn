@@ -3,7 +3,6 @@ import pandas as pd
 import folium
 import plotly.express as px
 import math
-
 from streamlit_folium import st_folium
 from PIL import Image as img
 

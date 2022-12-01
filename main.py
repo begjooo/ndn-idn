@@ -276,8 +276,6 @@ def peta(df, kode):
 	df_flow = df_flow.drop(columns = ['acc','cr','face','module','timestamp'])
 	df_flow['node'] = df_flow['node'].str.upper()
 
-	st.write(p_kota)
-
 	int_in = df_flow.loc[(df_flow.event == 'InterestIn') & (df_flow.node == kode)]
 	int_out = df_flow.loc[(df_flow.event == 'InterestOut') & (df_flow.node == kode)]
 	data_in = df_flow.loc[(df_flow.event == 'DataIn') & (df_flow.node == kode)]

@@ -1,2 +1,5 @@
 pandas
 streamlit
+folium
+plotly.express
+math

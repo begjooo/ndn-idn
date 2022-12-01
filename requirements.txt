@@ -1,6 +1,4 @@
 pandas
 streamlit
 folium
-plotly.express
-math
 streamlit_folium

@@ -26,12 +26,12 @@ def judul_sidebar():
 		''', unsafe_allow_html = True)
 
 	# nyumputin hamburger menu (pojok kanan atas)
-	#hide_menu_style = """
-    #    <style>
+	hide_menu_style = """
+        <style>
         	#MainMenu {visibility: hidden;}
-    #    </style>
-    #    """
-	#st.markdown(hide_menu_style, unsafe_allow_html=True)
+        </style>
+        """
+	st.markdown(hide_menu_style, unsafe_allow_html=True)
 
 # milih kota pake dropdownbox
 def pilih_kota(df):

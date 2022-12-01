@@ -2,4 +2,4 @@ pandas
 streamlit
 folium
 streamlit_folium
-plotly.express
+plotly

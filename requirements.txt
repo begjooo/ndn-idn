@@ -1,5 +1,5 @@
 pandas
-streamlit
 folium
-streamlit_folium
 plotly
+streamlit
+streamlit_folium

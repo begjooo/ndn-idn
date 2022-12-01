@@ -3,6 +3,7 @@ import pandas as pd
 import folium
 import plotly.express as px
 import math
+
 from streamlit_folium import st_folium
 from PIL import Image as img
 
@@ -25,12 +26,12 @@ def judul_sidebar():
 		''', unsafe_allow_html = True)
 
 	# nyumputin hamburger menu (pojok kanan atas)
-	hide_menu_style = """
-        <style>
-        	#MainMenu {visibility: hidden;}
-        </style>
-        """
-	st.markdown(hide_menu_style, unsafe_allow_html=True)
+	#hide_menu_style = """
+        #<style>
+        	##MainMenu {visibility: hidden;}
+        #</style>
+        #"""
+	#st.markdown(hide_menu_style, unsafe_allow_html=True)
 
 # milih kota pake dropdownbox
 def pilih_kota(df):

@@ -27,10 +27,10 @@ def judul_sidebar():
 
 	# nyumputin hamburger menu (pojok kanan atas)
 	#hide_menu_style = """
-        #<style>
-        	##MainMenu {visibility: hidden;}
-        #</style>
-        #"""
+    #    <style>
+    #    	MainMenu {visibility: hidden;}
+    #	</style>
+    #	"""
 	#st.markdown(hide_menu_style, unsafe_allow_html=True)
 
 # milih kota pake dropdownbox

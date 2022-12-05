@@ -441,7 +441,7 @@ def grafik_rata_rata_chr(df, opsi_metrik):
 			yaxis_title = 'Rata-Rata',
 			width = 500,
 			#height = 430,
-			margin = dict(l=0, r=0, t=20, b=30))
+			margin = dict(l=20, r=0, t=20, b=50))
 		st.plotly_chart(figbar)
 	
 	with col2:
@@ -607,7 +607,7 @@ def grafik_rata_rata_cli(df, opsi_metrik):
 		xaxis_title = 'Client',
 		yaxis_title = 'Rata-Rata',
 		width = 500,
-		margin = dict(l=0, r=0, t=20, b=30))
+		margin = dict(l=20, r=0, t=20, b=50))
 	st.plotly_chart(figbar)
 
 # data client
@@ -709,7 +709,7 @@ def data_pro():
 			xaxis_title = '',
 			yaxis_title = '',
 			width = 500,
-			margin = dict(l=0, r=0, t=0, b=30))
+			margin = dict(l=20, r=0, t=0, b=50))
 		st.plotly_chart(fig)
 	with col2:
 		st.write("""<h5 style="text-align: center">Jumlah <i>Interest</i> Masuk per Konten</h5>""",

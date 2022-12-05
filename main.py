@@ -607,7 +607,7 @@ def grafik_rata_rata_cli(df, opsi_metrik):
 		xaxis_title = 'Client',
 		yaxis_title = 'Rata-Rata',
 		width = 500,
-		(l=0, r=0, t=20, b=30))
+		margin = dict(l=0, r=0, t=20, b=30))
 	st.plotly_chart(figbar)
 
 # data client

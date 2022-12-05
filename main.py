@@ -441,7 +441,7 @@ def grafik_rata_rata_chr(df, opsi_metrik):
 			yaxis_title = 'Rata-Rata',
 			width = 500,
 			#height = 430,
-			margin = dict(l=0, r=0, t=20, b=0))
+			margin = dict(l=0, r=0, t=20, b=10))
 		st.plotly_chart(figbar)
 	
 	with col2:
